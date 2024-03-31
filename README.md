@@ -43,6 +43,27 @@ npm start
 5. Open your web browser and visit http://localhost:3000 to view the development version of the portfolio.
 
 
+## Available Scripts (from create-react-app README.md file)
+
+In the project directory, you can run:
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
 ## Get in Touch
 If you have any questions, concerns, or suggestions regarding the development of this portfolio, please don't hesitate to contact me at [gpcaresdev@gmail.com](mailto:gpcaresdev@gmail.com).
+
 
