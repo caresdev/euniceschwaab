@@ -14,28 +14,24 @@ const Hero = () => {
 
             <div className="text-overlay">
                 <Container>
-                  <Row className="justify-content-center">
-                    <h1 className="hero-title  mb-4">Eunice Schwaab</h1>
-                    <Col md={8}>
-                      <p className="hero-subtitle lead mb-4"> Explore the twisted imagination of an artist bound by a love for the eerie and the enigmatic.</p>
+                  <Row className="justify-content-center my-4">
+                    <Col md={10}>
+                      <h1 className="hero-title  mb-4">Eunice Schwaab</h1>
+                      <p className="hero-subtitle lead"> Explore the twisted imagination of an artist bound by a love for the eerie and the enigmatic.</p>
                     </Col>
                   </Row>
                   <Row className="justify-content-center">
-                    <Row className="justify-content-center g-4">
-                      <Col xs={2} md={1}>
-                        <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="icons"/></a>
-                      </Col>
-                      <Col xs={2} md={1}>
-                        <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons" /></a>
-                      </Col>
-                      {/* <Col xs={2} md={1}>
-                        <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faXTwitter} className="icons" /></a>
-                      </Col> */}
-                      <Col xs={2} md={1}>
-                        <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons" /></a>
-                      </Col>
-                    </Row>
+                    <Col xs={2} lg={1}>
+                      <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="icons"/></a>
+                    </Col>
+                    <Col xs={2} lg={1}>
+                      <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons" /></a>
+                    </Col>
+                    <Col xs={2} lg={1}>
+                      <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons" /></a>
+                    </Col>
                   </Row>
+                 
                 </Container>
               
             </div>

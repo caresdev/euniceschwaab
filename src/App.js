@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import NavigationBar from './components/NavigationBar';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
 
         <Hero/>
-        
+        <NavigationBar/>
 
         
         
