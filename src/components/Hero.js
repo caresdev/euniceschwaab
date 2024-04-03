@@ -1,6 +1,6 @@
-import { Image, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faTwitter, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import backgroundVideo from '../backgroundVideo.mp4';  
 import '../style/Hero.css';
 
@@ -14,9 +14,6 @@ const Hero = () => {
 
             <div className="text-overlay">
                 <Container>
-                  <Row className="justify-content-center mb-4">
-                    <Image src="assets/logo.png" className="profile-img mb-4"/>
-                  </Row>
                   <Row className="justify-content-center">
                     <h1 className="hero-title  mb-4">Eunice Schwaab</h1>
                     <Col md={8}>
@@ -31,9 +28,9 @@ const Hero = () => {
                       <Col xs={2} md={1}>
                         <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons" /></a>
                       </Col>
-                      <Col xs={2} md={1}>
-                        <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faTwitter} className="icons" /></a>
-                      </Col>
+                      {/* <Col xs={2} md={1}>
+                        <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faXTwitter} className="icons" /></a>
+                      </Col> */}
                       <Col xs={2} md={1}>
                         <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons" /></a>
                       </Col>
