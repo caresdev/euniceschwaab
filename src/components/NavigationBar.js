@@ -3,10 +3,10 @@ import '../style/NavigationBar.css';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="xl" data-bs-theme="dark" className="fixed-top px-3 px-md-5 py-md-3">
+    <Navbar expand="xl" data-bs-theme="dark" className="px-2 px-md-5 py-lg-3">
       <Container fluid>
         <Navbar.Brand href="/">
-            <img src="./assets/logo.png" alt="Eunice Schwaab Logo"/>
+            <img src="./assets/logo-test.png" alt="Eunice Schwaab Logo" className="py-1"/>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

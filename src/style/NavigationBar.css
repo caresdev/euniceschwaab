@@ -5,9 +5,8 @@
 }
 
 .navbar-brand img {
-    width: 1.5rem;
-    height: 1.5rem;
-    transform: scale(2.5);
+    width: 2em;
+    height: auto;
 }
 
 .navigation-bar .nav-link{
@@ -18,7 +17,7 @@
 
 .navbar-toggler{
     border: none;
-    padding: 0%;
+    padding: 0;
 }
 
 .navbar-toggler:focus{

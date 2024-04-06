@@ -1,0 +1,21 @@
+/* Books Section Layout */
+
+.books-section{
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.best-selling{
+    background-color: #483F48;
+}
+
+.best-selling-cover-img{
+    width: 10em;
+    height: auto;
+}
+

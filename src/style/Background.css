@@ -1,0 +1,10 @@
+/* Background Cover */
+
+.background-cover{
+    background-color: #241B23;
+}
+
+.background-image{
+    object-fit: cover;
+    opacity: 0.4;
+}
