@@ -14,16 +14,16 @@ function App() {
         <Hero/>
       </header>
 
-      <main >
+      <main>
         <Background/>
 
-        <div className="sections-container">
+        <div className="section-container col-xs-4 col-md-10">
 
           {/* Books section */}
-          <Books />
-
-          {/* Section 2 */}
-
+          <section>
+            <Books />
+          </section>
+          
           {/* Section 3 */}
 
           {/* Section 3 */}

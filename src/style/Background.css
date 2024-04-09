@@ -2,9 +2,16 @@
 
 .background-cover{
     background-color: #241B23;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 30;
+    left: 0;
+    z-index: -9999;
 }
 
 .background-image{
     object-fit: cover;
     opacity: 0.4;
+    height: 100vh;
 }
