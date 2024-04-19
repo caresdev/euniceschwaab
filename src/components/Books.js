@@ -6,11 +6,11 @@ const Books = () => {
         <div className="books-section">
             <Container fluid>
                 <Row className="justify-content-center py-4">
-                    <Col md={10}>
+                    <Col xs={10}>
                         <h2 className="my-5">Schwaab&apos;s Best Selling in Amazon</h2>
                         <Row className='best-selling p-4'>
                             <Col>
-                                <Image src="./assets/sfhCover.png" alt="Stories From Hell cover" className='best-selling-cover-img'/>
+                                <Image src="./assets/stories-from-hell.png" alt="Stories From Hell cover" className='best-selling-cover-img'/>
                             </Col>
                             <Col>
                                 <div className='rating-stars'> Rating Stars</div>
@@ -22,7 +22,7 @@ const Books = () => {
                     </Col>
                 </Row>
                 <Row className="justify-content-center py-4">
-                    <Col md={10}> 
+                    <Col xs={10}> 
                         <h2 className="my-5">Featured Books</h2>
                         <Row className="featured-books">
                             <Col xs={3} lg={4}>

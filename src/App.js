@@ -7,9 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
       
-      <header className="App-header">
+      <header>
         <NavigationBar/>
         <Hero/>
       </header>
@@ -17,10 +16,10 @@ function App() {
       <main>
         <Background/>
 
-        <div className="section-container col-xs-4 col-md-10">
+        <div className="container section-container col-md-10">
 
           {/* Books section */}
-          <section>
+          <section className='container'>
             <Books />
           </section>
           
@@ -28,13 +27,13 @@ function App() {
 
           {/* Section 3 */}
 
+
+
         </div>
-
-
         
 
-      </main>
 
+      </main>
 
       
      
