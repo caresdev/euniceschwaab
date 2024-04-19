@@ -7,10 +7,23 @@
 
 .best-selling{
     background-color: #483F48;
+    display: flex;
 }
 
 .best-selling-cover-img{
     width: 10em;
     height: auto;
+}
+
+.rating{
+    color: #FFB600;
+}
+
+
+/* write a rule for all buttons from the app since same layout (App.css) */
+.rating-button{
+    background-color: #7B1F27;
+    border: none;
+
 }
 
