@@ -24,6 +24,14 @@
 .rating-button{
     background-color: #7B1F27;
     border: none;
+}
 
+.book-cover{
+    width: 8em;
+    height: auto;
+}
+
+.featured-books{
+    display: flex;
 }
 
