@@ -3,7 +3,7 @@ import '../style/NavigationBar.css';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="xl" data-bs-theme="dark" className="px-2 px-md-5 py-lg-3">
+    <Navbar expand="lg" data-bs-theme="dark" className="px-3 px-xxl-5 py-lg-3">
       <Container fluid>
         <Navbar.Brand href="/">
             <img src="./assets/logo-test.png" alt="Eunice Schwaab Logo" className="py-1"/>

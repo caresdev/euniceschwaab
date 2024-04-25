@@ -21,14 +21,18 @@ const Hero = () => {
                     </Col>
                   </Row>
                   <Row className="justify-content-center">
-                    <Col xs={2} lg={1}>
-                      <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="icons"/></a>
-                    </Col>
-                    <Col xs={2} lg={1}>
-                      <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons" /></a>
-                    </Col>
-                    <Col xs={2} lg={1}>
-                      <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons" /></a>
+                    <Col md={10} lg={8}>
+                      <Row className='justify-content-center'>
+                        <Col xs={2}>
+                          <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="icons"/></a>
+                        </Col>
+                        <Col xs={2}>
+                          <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons" /></a>
+                        </Col>
+                        <Col xs={2}>
+                          <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons" /></a>
+                        </Col>
+                      </Row>
                     </Col>
                   </Row>
                  
