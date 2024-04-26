@@ -1,0 +1,39 @@
+/* Arts Section Layout */
+
+.arts-section{
+    background-color: black;
+    
+}
+
+.arts-container{
+    display: flex;
+}
+
+
+.art-cover{
+    width: 10em;
+    height: auto;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 375px) and (max-width:425px){
+    .art-cover{
+        width: 13em;
+    }
+    
+}
+
+@media screen and (min-width: 425px) and (max-width: 760px){
+    .art-cover{
+        width: 15em;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .art-cover{
+        width: 12em;
+    }
+    
+}

@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import NavigationBar from './components/NavigationBar';
 import Background from './components/Background';
 import Books from './components/Books';
+import Arts from './components/Arts';
 import './App.css';
 
 function App() {
@@ -16,14 +17,17 @@ function App() {
       <main>
         <Background/>
 
-        <div className="container section-container col-md-10">
+        <div className="container section-container col-md-12">
 
           {/* Books section */}
           <section className='container'>
             <Books />
           </section>
           
-          {/* Section 3 */}
+          {/* Arts section */}
+          <section className='container'>
+            <Arts />
+          </section>
 
           {/* Section 3 */}
 
