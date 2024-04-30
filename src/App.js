@@ -28,8 +28,14 @@ function App() {
           <section className='container'>
             <Arts />
           </section>
+          
 
-          {/* Section 3 */}
+          {/* About */}
+
+
+
+
+          {/* News  */}
 
 
 
