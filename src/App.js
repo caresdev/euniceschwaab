@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar';
 import Background from './components/Background';
 import Books from './components/Books';
 import Arts from './components/Arts';
+import About from './components/About';
 import './App.css';
 
 function App() {
@@ -28,18 +29,19 @@ function App() {
           <section className='container'>
             <Arts />
           </section>
-          
-
-          {/* About */}
-
-
-
 
           {/* News  */}
 
+          
 
+          {/* About */}
+          <section className='container'>
+            <About/>
+          </section>
 
         </div>
+
+        {/* Footer */}
         
 
 
