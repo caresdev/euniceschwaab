@@ -40,19 +40,17 @@ function App() {
             <About/>
           </section>
 
-
-          {/* Footer should be outside of main. Fix css properties for position, etc. */}
-          {/* Footer */}
-          <footer id='app-footer' className='container p-3'>
-            <AppFooter/>
-          </footer>
-
       </div>
 
     </main>
 
-      
-     
+    {/* Footer */}
+    <footer id='app-footer'>
+      <div className="footer-container">
+        <AppFooter/>
+      </div>
+    </footer>
+
     </div>
   );
 }

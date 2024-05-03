@@ -8,9 +8,15 @@
     height: auto;
 }
 
-.footer-icons{
+.social-media-icons, .contact-icons{
     margin-right: 0.3em;
-    font-size: 1.5em;
+}
 
+.social-media-icons{
+    font-size: 2.2em;
+}
+
+.contact-icons{
+    font-size: 1.2em;
 }
 
