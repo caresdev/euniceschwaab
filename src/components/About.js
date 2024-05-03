@@ -5,6 +5,7 @@ import '../style/About.css';
 const About = () => {
     return(
         
+        /* Eliminate redundancy with divs */
         <div className="about-section">
             <Container fluid>
 

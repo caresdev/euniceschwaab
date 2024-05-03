@@ -4,6 +4,7 @@ import Background from './components/Background';
 import Books from './components/Books';
 import Arts from './components/Arts';
 import About from './components/About';
+import AppFooter from './components/AppFooter';
 import './App.css';
 
 function App() {
@@ -39,13 +40,16 @@ function App() {
             <About/>
           </section>
 
-        </div>
 
-        {/* Footer */}
-        
+          {/* Footer should be outside of main. Fix css properties for position, etc. */}
+          {/* Footer */}
+          <footer id='app-footer' className='container p-3'>
+            <AppFooter/>
+          </footer>
 
+      </div>
 
-      </main>
+    </main>
 
       
      

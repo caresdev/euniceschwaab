@@ -1,0 +1,16 @@
+.app-footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-profile-img{
+    width: 4em;
+    height: auto;
+}
+
+.footer-icons{
+    margin-right: 0.3em;
+    font-size: 1.5em;
+
+}
+
