@@ -8,15 +8,30 @@
     height: auto;
 }
 
-.social-media-icons, .contact-icons{
-    margin-right: 0.3em;
-}
-
 .social-media-icons{
     font-size: 2.2em;
 }
 
 .contact-icons{
     font-size: 1.2em;
+    margin-right: 0.3em;
+}
+
+.footer-copyrights{
+    margin-top: 6em !important;
+}
+
+
+/* Media Queries */
+@media  screen and (max-width: 374px) {
+    .social-media-icons{
+        font-size: 1.9em;
+    }
+}
+
+@media  screen and (min-width: 475px) {
+    .row{
+        justify-content: space-around;
+    }
 }
 
