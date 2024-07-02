@@ -1,14 +1,7 @@
 /* Hero layout */
 #hero{
-    background-color: #241B23;
     color: white;
     height: 100vh;
-}
-
-.hero-video{
-    height: inherit;
-    object-fit: cover;
-    opacity: 0.4;
 }
   
 .text-overlay{

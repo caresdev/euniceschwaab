@@ -1,17 +1,11 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import backgroundVideo from '../backgroundVideo.mp4';  
 import '../style/Hero.css';
 
 const Hero = () => {
     return(
         <div id="hero" className="text-center position-relative">
-            <video src={backgroundVideo} className="hero-video d-block img-fluid w-100" autoPlay loop muted alt="Blended tint background">
-                <source src={backgroundVideo} type="video/mp4"/>
-                Your browser does not support the video tag.
-            </video>
-
             <div className="text-overlay">
                 <Container>
                   <Row className="justify-content-center my-4">

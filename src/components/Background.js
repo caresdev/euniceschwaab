@@ -5,7 +5,7 @@ import '../style/Background.css';
 const Background = () => {
     return(
         <div className='background-cover'>
-            <Image src="./assets/background.png" className="background-image w-100"/>
+            <Image src="./assets/bg-image.png" className="background-image w-100"/>
         </div>
     );
 
