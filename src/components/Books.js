@@ -12,7 +12,7 @@ const Books = () => {
 
                 {/* Best Selling */}
                 <Row className="justify-content-center py-2">
-                    <Col xs={10} >
+                    <Col xs={10}>
                         <h2 className="my-5 text-center fw-semibold">Schwaab&apos;s Best Selling in Amazon</h2>
 
                         <Row className='best-selling-container p-3 p-sm-4 justify-content-around'>
