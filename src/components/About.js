@@ -10,18 +10,17 @@ const About = () => {
             <Container fluid>
 
                 {/* About */}
-                <Row className="justify-content-center align-items-center py-4">
-                    <Col xs={10} lg={12}> 
-                        <div className='px-3'>
-                            <h2 className="mt-5 mb-3 text-center fw-semibold">Meet Eunice Schwaab </h2>
-                            <h3 className='mb-5 text-center'>Unveiling the Creative Mind</h3>
-                        </div>
-                        
-                        <Row className="about-container p-1 p-sm-4 mb-5 justify-content-around align-items-center g-xl-0">
-                            <Col md={10} lg={5} xxl={5} className='my-3 text-center'>
-                                <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img mb-4'/>
+                <Row className="">
+                    <Col> 
+                        <Row className="about-container justify-content-evenly align-items-center py-5 my-lg-5 g-xl-0">
+                            <Col md={10} lg={5} xxl={5} className='text-center'>
+                                <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img'/>
                             </Col>
-                            <Col  md={10} lg={5} xxl={4} className='mx-1 my-3'>
+                            <Col  md={10} lg={5} xxl={5} className='px-5'>
+                                <div className=''>
+                                    <h2 className="fw-semibold mt-4 mt-md-0 mb-5">Meet Eunice Schwaab </h2>
+                                    {/* <h5 className='mb-5'>Unveiling the Creative Mind</h5> */}
+                                </div>
                                 <p> I am an aspiring author and artist with a passion for creating expressive works which illustrate the madness of practically
                                     everything. I like finding beauty in darkness. I like discovering how my characters will react to extreme settings and possibilities. I like
                                     everything which is creepy and weird. <br/><br/>
@@ -30,6 +29,7 @@ const About = () => {
                                     is gruesome and different. But that's what makes it fun.
                                 </p>
                             </Col>
+            
                         </Row>
                     </Col>
                 </Row>
