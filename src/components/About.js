@@ -10,15 +10,15 @@ const About = () => {
             <Container fluid>
 
                 {/* About */}
-                <Row className="">
+                <Row >
                     <Col> 
-                        <Row className="about-container justify-content-evenly align-items-center py-5 my-lg-5 g-xl-0">
-                            <Col md={10} lg={5} xxl={5} className='text-center'>
+                        <Row className="about-container justify-content-evenly align-items-center text-center py-5 px-4 my-lg-5 g-xl-0">
+                            <Col md={5} lg={5} xxl={5}>
                                 <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img'/>
                             </Col>
-                            <Col  md={10} lg={5} xxl={5} className='px-5'>
-                                <div className=''>
-                                    <h2 className="fw-semibold mt-4 mt-md-0 mb-5">Meet Eunice Schwaab </h2>
+                            <Col md={6} lg={6} xxl={5}>
+                                <div>
+                                    <h2 className="fw-semibold mt-4 mt-md-0 mb-5">Meet Eunice <span className='break-xs-md'> Schwaab </span></h2>
                                     {/* <h5 className='mb-5'>Unveiling the Creative Mind</h5> */}
                                 </div>
                                 <p> I am an aspiring author and artist with a passion for creating expressive works which illustrate the madness of practically
