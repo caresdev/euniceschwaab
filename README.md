@@ -1,6 +1,6 @@
-# euniceschwaab.com Development Environment
+# Eunice Schwaab
 
-Welcome to the repository for Eunice Shwaab's website! This space showcases the artistic and literary talents of Eunice Shwaab, a writer and artist 
+Welcome to the repository for Eunice Shwaab's website! This space showcases the artistic and literary talents of a 17-year old writer and artist 
 with a passion for the dark and the mysterious. As the frontend developer for this project, I will bring Eunice's artistic concepts into an immersive online experience. 
 Here, you'll find all the necessary tools and resources to build and refine a portfolio like Eunice's. 
 
