@@ -6,7 +6,7 @@ const About = () => {
     return(
         
         /* Eliminate redundancy with divs */
-        <div className="about-section">
+        <div id="about" className="about-section">
             <Container fluid>
 
                 {/* About */}

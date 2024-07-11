@@ -5,7 +5,7 @@ import '../style/Arts.css';
 const Arts = () => {
     return(
         
-        <div className="arts-section">
+        <div id="arts" className="arts-section">
             <Container fluid>
 
                 {/* Arts */}

@@ -7,7 +7,7 @@ import '../style/Books.css';
 const Books = () => {
     return(
         
-        <div className="books-section">
+        <div id="books" className="books-section">
             <Container fluid>
 
                 {/* Best Selling */}

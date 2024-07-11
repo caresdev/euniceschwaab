@@ -2,18 +2,18 @@ import {Container, Col, Row} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faFacebook, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import '../style/AppFooter.css';
+import '../style/Contact.css';
 
 
 
-const AppFooter = () => {
+const Contact = () => {
     return(
-        <div className='app-footer'>
+        <div id="contact" className='app-footer'>
             <Container fluid className='justify-content-center p-3'>
 
                 <Row className='align-items-center mx-3 my-4'>
                     <Col className='col-md-5 my-4'>
-                        <img src="./assets/logo-test.png" alt="Eunice Schwaab Logo" className="footer-profile-img py-1"/>
+                        <img src="./assets/logo.png" alt="Eunice Schwaab Logo" className="footer-profile-img py-1"/>
                     </Col>
                     <Col className='col-md-4 col-lg-3 col-xxl-2'>
                         <h4> Your Statement </h4>
@@ -60,4 +60,4 @@ const AppFooter = () => {
     );
 };
 
-export default AppFooter;
+export default Contact;
