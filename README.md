@@ -1,6 +1,8 @@
 # euniceschwaab.com Development Environment
 
-This space serves as the development environment where the magic of Eunice's creative vision comes to life. As the frontend developer for this project, I will be orchestrating the transformation of Eunice's artistic concepts into an immersive online experience. Here, you'll find all the necessary tools and resources to build and refine a portfolio like Eunice's.
+Welcome to the repository for Eunice Shwaab's website! This space showcases the artistic and literary talents of Eunice Shwaab, a writer and artist 
+with a passion for the dark and the mysterious. As the frontend developer for this project, I will bring Eunice's artistic concepts into an immersive online experience. 
+Here, you'll find all the necessary tools and resources to build and refine a portfolio like Eunice's. 
 
 
 ## Technologies Used
