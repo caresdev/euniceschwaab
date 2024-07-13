@@ -1,4 +1,4 @@
-import {Image, Container, Col, Row} from 'react-bootstrap';
+import {Image, Container, Col, Row, Button} from 'react-bootstrap';
 import '../style/Arts.css';
 
 
@@ -11,8 +11,8 @@ const Arts = () => {
                 {/* Arts */}
                 <Row>
                     <Col> 
-                        <h2 className="my-5 px-4 text-center fw-semibold">Schwaab&apos;s Artistry</h2>
-                        <Row className="arts-container p-3 p-sm-4 justify-content-between align-items-center">
+                        <h2 className="mt-5 mb-4 pt-2 px-4 text-center fw-semibold">Schwaab&apos;s Artistry</h2>
+                        <Row className="arts-container p-3 p-sm-4 mb-5 justify-content-between align-items-center">
                             <Col md={6} lg={4} className='p-3 my-3 text-center'>
                                 <Image src="./assets/melancholy-lake.png" alt="Melancholy Lake art by Eunice Schwaab" className='art-cover mb-4'/>
                                 <h5 className='mb-4'>Melancholy Lake</h5>
@@ -26,6 +26,9 @@ const Arts = () => {
                                 <h5 className='mb-4'>The Colored Carcass</h5>
                             </Col>
                         </Row>
+                        {/* <Button href='https://www.amazon.com' className='rating-button'>
+                            See More
+                        </Button> */}
                     </Col>
                 </Row>
 

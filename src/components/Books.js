@@ -11,9 +11,9 @@ const Books = () => {
             <Container fluid>
 
                 {/* Best Selling */}
-                <Row className="justify-content-center py-2">
+                <Row className="justify-content-center py-3">
                     <Col xs={10}>
-                        <h2 className="my-5 text-center fw-semibold">Schwaab&apos;s Best Selling in Amazon</h2>
+                        <h2 className="my-5 py-2 text-center fw-semibold">Schwaab&apos;s Best Selling in Amazon</h2>
 
                         <Row className='best-selling-container p-3 p-sm-4 justify-content-around'>
                             {/* Combine both columns so they are evenly justified. */}
