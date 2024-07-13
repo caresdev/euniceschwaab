@@ -27,7 +27,7 @@ const Arts = () => {
                             </Col>
                         </Row>
                         <div className='d-flex justify-content-center mb-5'>
-                            <Button href='https://www.amazon.com' className='rating-button'>
+                            <Button href='' className='rating-button'>
                                 See More
                             </Button>
                         </div>
