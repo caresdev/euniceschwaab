@@ -26,12 +26,6 @@ const Arts = () => {
                                 <h5 className='mb-4'>The Colored Carcass</h5>
                             </Col>
                         </Row>
-                        <div className='d-flex justify-content-center mb-5'>
-                            <Button href='' className='rating-button'>
-                                See More
-                            </Button>
-                        </div>
-                        
                     </Col>
                 </Row>
 

@@ -1,11 +1,9 @@
-import { BrowserRouter} from "react-router-dom";
-import Hero from './components/Hero';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import NavigationBar from './components/NavigationBar';
 import Background from './components/Background';
-import Books from './components/Books';
-import Arts from './components/Arts';
-import About from './components/About';
 import Contact from './components/Contact';
+import Home from "./components/Home";
+import Gallery from './components/Gallery';
 import './App.css';
 
 function App() {
@@ -15,43 +13,20 @@ function App() {
         
         <header>
           <NavigationBar/>
-          <Hero/>
         </header>
+        <Background/>
 
-        <main>
-          <Background/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/gallery" element={<Gallery/>} />
+        </Routes>
 
-          <div className="container section-container col-md-12">
-
-            {/* Books section */}
-            <section id="books" className='container'>
-              <Books />
-            </section>
-            
-            {/* Arts section */}
-            <section id="arts" className='container'>
-              <Arts />
-            </section>
-
-            {/* News  */}
-
-            
-
-            {/* About */}
-            <section id="about" className='container'>
-              <About/>
-            </section>
-
-        </div>
-
-      </main>
-
-      {/* Footer */}
-      <footer id="contact" className='app-footer'>
-        <div className="footer-container">
-          <Contact/>
-        </div>
-      </footer>
+        {/* Footer */}
+        <footer id="contact" className='app-footer'>
+          <div className="footer-container">
+            <Contact/>
+          </div>
+        </footer>
 
       </div>
     </BrowserRouter>
