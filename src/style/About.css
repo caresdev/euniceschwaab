@@ -39,9 +39,6 @@
     .about-img{
         width: 15em;
     }
-    .about-container{
-        text-align: left !important;
-    } 
 }
 
 @media screen and (min-width: 1000px){

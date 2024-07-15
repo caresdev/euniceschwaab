@@ -13,7 +13,7 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-          <Nav className="navigation-bar text-center">
+          <Nav className="text-center">
             <Nav.Link as={Link} smooth to="/#home">Home</Nav.Link>
             <Nav.Link as={Link} smooth to="/#books">Books</Nav.Link>
             <Nav.Link as={Link} smooth to="/#arts">Gallery</Nav.Link>

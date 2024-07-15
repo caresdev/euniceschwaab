@@ -19,14 +19,6 @@
     color: #FFB600;
 }
 
-
-/* write a rule for all buttons from the app since same layout (App.css) */
-.rating-button, .rating-button:hover, .rating-button:focus{
-    background-color: #7B1F27 !important;
-    border: none;
-}
-
-
 .book-cover{
     width: 8em;
     height: auto;

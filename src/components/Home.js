@@ -5,7 +5,6 @@ import Books from './Books';
 import Arts from './Arts';
 import About from './About';
 import '../style/Home.css';
-import '../style/About.css';
 
 const Home = () => {
     return (
@@ -26,7 +25,7 @@ const Home = () => {
                     <section id="arts" className='container'>
                         <Arts />
                         <div className='d-flex justify-content-center mb-5'>
-                            <Button as={Link} to="/gallery" className='rating-button'>
+                            <Button as={Link} to="/gallery" className='primary-button'>
                                 See More
                             </Button>
                         </div>

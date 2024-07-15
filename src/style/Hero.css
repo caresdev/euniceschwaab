@@ -33,15 +33,8 @@
     cursor: default;
 }
 
-.icons{
+.hero-icons{
     font-size: 1.5em;
-    color: white;
-}
-
-
-a{
-    text-decoration: none;
-    color: inherit;
 }
 
 
@@ -55,8 +48,8 @@ a{
     .hero-subtitle{
         font-size: 1em;
     }
-    .icons{
-        font-size: 1.7em;
+    .hero-icons{
+        font-size: 1.8em;
     } 
 }
 
@@ -68,7 +61,7 @@ a{
     .hero-subtitle{
         font-size: 1.3em;
     }
-    .icons{
+    .hero-icons{
         font-size: 2em;
     }
     
@@ -82,7 +75,7 @@ a{
     .hero-subtitle{
         font-size: 1.7em;
     }
-    .icons{
+    .hero-icons{
         font-size: 2.2em;
     }
     
@@ -96,7 +89,7 @@ a{
     .hero-subtitle{
         font-size: 1.9em;
     }
-    .icons{
+    .hero-icons{
         font-size: 2.5em;
     }
     
@@ -110,7 +103,7 @@ a{
     .hero-subtitle{
         font-size: 4em;
     }
-    .icons{
+    .hero-icons{
         font-size: 5em;
     }
     

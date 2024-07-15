@@ -16,7 +16,7 @@ const About = () => {
                             <Col md={5} lg={5} xxl={5}>
                                 <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img'/>
                             </Col>
-                            <Col md={6} lg={6} xxl={5}>
+                            <Col md={6} lg={6} xxl={5} className='text-start'>
                                 <div>
                                     <h2 className="fw-semibold mt-4 mt-md-0 mb-5">Meet Eunice <span className='break-xs-md'> Schwaab </span></h2>
                                     {/* <h5 className='mb-5'>Unveiling the Creative Mind</h5> */}

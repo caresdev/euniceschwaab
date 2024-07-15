@@ -16,7 +16,7 @@ const Contact = () => {
                         <img src="./assets/logo.png" alt="Eunice Schwaab Logo" className="footer-profile-img py-1"/>
                     </Col>
                     <Col className='col-md-4 col-lg-3 col-xxl-2'>
-                        <h4> Your Statement </h4>
+                        <h5 className='slogan'> Embrace the Unconventional </h5>
                     </Col>
                 </Row>
 
@@ -25,10 +25,10 @@ const Contact = () => {
                     <Col className='col-12 col-md-5 my-4'>
                         <h3 className='my-4'>Get in Touch</h3>
                         <p className='align-items-center'>
-                            <a href="tel: +18328717839"><FontAwesomeIcon icon={faPhone} className="contact-icons" /> (832) 871-7839</a>
+                            <a href="tel: +18328717839"><FontAwesomeIcon icon={faPhone} className="icons contact-icons" /> (832) 871-7839</a>
                         </p>
                         <p className='align-items-center'>
-                            <a href="mailto: euniceschwaab@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="contact-icons"/> euniceschwaab@gmail.com</a>
+                            <a href="mailto: euniceschwaab@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icons contact-icons"/> euniceschwaab@gmail.com</a>
                         </p>
                            
                     </Col>
@@ -36,13 +36,13 @@ const Contact = () => {
                         <h3 className="my-4"> Get Social</h3>
                         <Row className="justify-content-between">
                             <Col xs={4}>
-                                <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="social-media-icons"/></a>
+                                <a href="https://www.instagram.com/euniceschwaab/"><FontAwesomeIcon icon={faInstagram} className="icons social-media-icons"/></a>
                             </Col>
                             <Col xs={4}>
-                                <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="social-media-icons" /></a>
+                                <a href="https://m.facebook.com/profile.php?id=100039788105973"><FontAwesomeIcon icon={faFacebook} className="icons social-media-icons" /></a>
                             </Col>
                             <Col xs={4}>
-                                <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="social-media-icons" /></a>
+                                <a href="https://wa.me/8328717839"><FontAwesomeIcon icon={faWhatsapp} className="icons social-media-icons" /></a>
                             </Col>
                         </Row>
                     </Col>

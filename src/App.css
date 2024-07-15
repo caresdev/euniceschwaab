@@ -1,3 +1,23 @@
+/* Global styling */
+
+.btn{
+    border: none !important;
+    padding: 0;
+}
+
+.primary-button, .primary-button:hover, .primary-button:focus{
+    background-color: #7B1F27 !important;
+}
+
+.icons{
+    color: white;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
 .footer-container{
     position: relative;
     bottom: 0;
