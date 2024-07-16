@@ -4,11 +4,13 @@ import Background from './components/Background';
 import Contact from './components/Contact';
 import Home from "./components/Home";
 import Gallery from './components/Gallery';
+import ScrollToTop from "./components/ScrollToTop";
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <div className="App">
         
         <header>
