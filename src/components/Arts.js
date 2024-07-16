@@ -1,4 +1,5 @@
 import {Image, Container, Col, Row, Button} from 'react-bootstrap';
+import { HashLink as Link } from "react-router-hash-link";
 import '../style/Arts.css';
 
 
@@ -26,6 +27,11 @@ const Arts = () => {
                                 <h5 className='mb-4'>The Colored Carcass</h5>
                             </Col>
                         </Row>
+                        <div className='d-flex justify-content-center mb-5'>
+                            <Button as={Link} to="/gallery" className='primary-button'>
+                                See More
+                            </Button>
+                        </div>
                     </Col>
                 </Row>
 

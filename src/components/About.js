@@ -12,11 +12,11 @@ const About = () => {
                 {/* About */}
                 <Row >
                     <Col> 
-                        <Row className="about-container justify-content-evenly align-items-center text-center py-5 px-4 my-lg-5 g-xl-0">
+                        <Row className="about-container justify-content-evenly align-items-center text-center text-md-start py-5 px-4 my-lg-5 g-xl-0">
                             <Col md={5} lg={5} xxl={5}>
                                 <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img'/>
                             </Col>
-                            <Col md={6} lg={6} xxl={5} className='text-start'>
+                            <Col md={6} lg={6} xxl={5}>
                                 <div>
                                     <h2 className="fw-semibold mt-4 mt-md-0 mb-5">Meet Eunice <span className='break-xs-md'> Schwaab </span></h2>
                                     {/* <h5 className='mb-5'>Unveiling the Creative Mind</h5> */}

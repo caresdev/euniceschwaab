@@ -1,5 +1,5 @@
-import { Button } from "react-bootstrap";
-import { HashLink as Link } from "react-router-hash-link";
+// import { Button } from "react-bootstrap";
+// import { HashLink as Link } from "react-router-hash-link";
 import Hero from './Hero';
 import Books from './Books';
 import Arts from './Arts';
@@ -24,11 +24,6 @@ const Home = () => {
                     {/* Arts section */}
                     <section id="arts" className='container'>
                         <Arts />
-                        <div className='d-flex justify-content-center mb-5'>
-                            <Button as={Link} to="/gallery" className='primary-button'>
-                                See More
-                            </Button>
-                        </div>
                     </section>
 
                     {/* News  */}
