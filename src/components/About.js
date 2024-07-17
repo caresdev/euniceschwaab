@@ -6,13 +6,13 @@ const About = () => {
     return(
         
         /* Eliminate redundancy with divs */
-        <div id="about" className="about-section">
+        <div id="about" className="section-container about-section">
             <Container fluid>
 
                 {/* About */}
                 <Row >
                     <Col> 
-                        <Row className="about-container justify-content-evenly align-items-center text-center text-md-start py-5 px-4 my-lg-5 g-xl-0">
+                        <Row className="justify-content-evenly align-items-center text-center text-md-start py-5 px-4 my-lg-5 g-xl-0">
                             <Col md={5} lg={5} xxl={5}>
                                 <Image src="./assets/eunice-selfie.jpg" alt="Selfie of Eunice Schwaab" className='about-img'/>
                             </Col>

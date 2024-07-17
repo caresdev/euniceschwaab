@@ -14,7 +14,7 @@ const Home = () => {
             </header>
 
             <main>
-                <div className="container section-container col-md-12">
+                <div className="container col-md-12">
 
                     {/* Books section */}
                     <section id="books" className='container'>

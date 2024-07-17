@@ -1,11 +1,6 @@
 /* Arts Section Layout */
 
 .about-section{
-    background-color: black;
-    
-}
-
-.about-container{
     display: flex;
 }
 

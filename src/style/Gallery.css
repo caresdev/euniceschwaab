@@ -1,0 +1,39 @@
+.gallery-art-cover {
+    width: 12em;
+    height: 12em;
+    object-fit: cover;
+}
+
+
+
+/* Media Queries */
+@media screen and (min-width: 375px) and (max-width:424px){  /* Medium phones */
+    .gallery-art-cover{
+        width: 15em;
+        height: 15em;
+    }
+    
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){  /* Large phones */
+    .gallery-art-cover{
+        width: 18em;
+        height: 18em;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px){  /* Tablets */
+    .gallery-art-cover{
+        width: 14em;
+        height: 14em;
+    }
+}
+
+@media screen and (min-width: 1300px){  /* Bigger screens */
+    .gallery-art-cover{
+        width: 30em;
+        height: 45em;
+    }
+    
+}

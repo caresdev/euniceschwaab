@@ -18,6 +18,15 @@ a{
     color: inherit !important;
 }
 
+.section-container{
+    top: 2%;
+    background-color: #000000;
+    color: white;
+    font-family: "Livvic", sans-serif;
+    margin-bottom: 10em;
+    margin-top: 5em;
+}
+
 .footer-container{
     position: relative;
     bottom: 0;
