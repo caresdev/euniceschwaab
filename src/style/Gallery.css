@@ -1,6 +1,6 @@
 .gallery-art-cover {
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: auto;
     object-fit: cover;
 }
 
@@ -9,8 +9,8 @@
 /* Media Queries */
 @media screen and (min-width: 375px) and (max-width:424px){  /* Medium phones */
     .gallery-art-cover{
-        width: 15em;
-        height: 15em;
+        width: 18em;
+        height: auto;
     }
     
 }
@@ -32,8 +32,8 @@
 
 @media screen and (min-width: 1300px){  /* Bigger screens */
     .gallery-art-cover{
-        width: 30em;
-        height: 45em;
+        width: 25em;
+        height: auto;
     }
     
 }
