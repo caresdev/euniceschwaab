@@ -25,7 +25,6 @@ const NavigationBar = () => {
 
         <Navbar.Toggle onClick={toggleButton} aria-controls="responsive-navbar-nav">
           <span className={`navbar-toggler-icon ${isOpen ? 'open' : 'closed'}`}></span>
-          <span className={`closing-button ${isOpen ? 'open' : 'closed'}`}> </span>
         </Navbar.Toggle>
 
         {/* Tie state to Navbar.Collapse */}
