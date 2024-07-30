@@ -1,6 +1,8 @@
 import { useEffect} from 'react';
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-// import { Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+
 
 const ScrollToTop = () => {
 
@@ -12,27 +14,28 @@ const ScrollToTop = () => {
   }, [location.pathname]);
 
 
-//   // Show Top button when scrolling 
-//   const [showTop, setShowTop] = useState(false);
+  // Show Top button when scrolling 
+  const [showTop, setShowTop] = useState(false);
 
-//   const showTopButton = () => {
-//     const position = document.documentElement.scrollTop;
+  const showTopButton = () => {
+    const position = document.documentElement.scrollTop;
 
-//     if (position > 300){
-//         setShowTop(true);
-//     }
-//     else{
-//         setShowTop(false);
-//     }
-//   };
+    if (position > 300){
+        setShowTop(true);
+    }
+    else{
+        setShowTop(false);
+    }
+  };
 
-//   window.addEventListener('scroll', showTopButton); 
-
-//   return (
-//     <Button></Button>
-//   );
+  window.addEventListener('scroll', showTopButton); 
 
   return null;
+
+  // return (
+  //   <Button></Button>
+  // );
+
 };
 
 export default ScrollToTop;
