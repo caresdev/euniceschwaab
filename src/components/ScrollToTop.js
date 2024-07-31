@@ -1,6 +1,8 @@
 import { useEffect, useState} from 'react';
 import { useLocation } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp} from '@fortawesome/free-solid-svg-icons';
 import '../style/ScrollToTop.css';
 
 
@@ -51,7 +53,7 @@ const ScrollToTop = () => {
 
   return(
     <>
-      <Button onClick={handleScrollTop} className={`scrollToTopBtn ${showTop ? 'show' : 'hide'}`}> To Top </Button>
+      <Button onClick={handleScrollTop} className={`scrollToTopBtn rounded-circle btn-sm ${showTop ? 'show' : 'hide'}`}> <FontAwesomeIcon icon={faChevronUp} className='scrollToTopIcon' /> </Button>
     </>
 
   );
