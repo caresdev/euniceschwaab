@@ -4,8 +4,8 @@
 
 .scrollToTopBtn.show{
     display: block;
-    width: 2.5em;
-    height: 2.5em;
+    width: 3em;
+    height: 3em;
     background-color: rgba(255, 255, 255, 0.788) !important;
     color: black !important;
     bottom: 50px;
@@ -15,7 +15,7 @@
 }
 
 .scrollToTopBtn.show > .scrollToTopIcon{
-    font-size: 1.3em;
+    font-size: 1.7em;
     
 }
 
@@ -23,12 +23,12 @@
 @media screen and (min-width: 768px) {
     .scrollToTopBtn.show{
         left: 85vw;
-        width: 3.2em;
-        height: 3.2em;
+        width: 3.5em;
+        height: 3.5em;
     }
 
     .scrollToTopBtn.show > .scrollToTopIcon{
-        font-size: 1.7em;
+        font-size: 2em;
         
     }
     
