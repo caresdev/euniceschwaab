@@ -1,13 +1,13 @@
 import { useEffect, useState} from 'react';
 import { useLocation } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
+import '../style/ScrollToTop.css';
 
 
 const ScrollToTop = () => {
 
   const location  = useLocation();
-  const [showTop, setShowTop] = useState(false); 
-
+  const [showTop, setShowTop] = useState(false);
 
   // Scroll to Top behavior for Routing
   useEffect(() => {
@@ -16,11 +16,12 @@ const ScrollToTop = () => {
 
 
 
-  // Scroll to Top Button for Scrolling
+  // Show Top Button when scrolling
   useEffect(() => {
 
-    const showTopButton = () => {
-      const scrollPosition = document.documentElement.scrollTop;
+    // Handle button visibility 
+    const handleShowButton = () => {
+      const scrollPosition = document.documentElement.scrollTop; 
 
       if (scrollPosition > 300){
           setShowTop(true);
@@ -30,19 +31,30 @@ const ScrollToTop = () => {
       }
     };
 
-    const handleScrollTop = () => {
-      window.scrollTo(0);
+    window.addEventListener('scroll', handleShowButton);
+    
+    // Clean up event listener 
+    return () => {
+      window.removeEventListener('scroll', handleShowButton);
 
     };
-
-    window.addEventListener('scroll', showTopButton); 
-
-    return (
-      <Button onClick={() => window.scrollTo(0)} className='scrollToTopBtn'> To Top </Button>
-    );
+  
   }, []);
 
-    
+  
+  // Handle function for scrolling
+  const handleScrollTop = () => {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+
+  };
+
+
+  return(
+    <>
+      <Button onClick={handleScrollTop} className={`scrollToTopBtn ${showTop ? 'show' : 'hide'}`}> To Top </Button>
+    </>
+
+  );
 
 };
 

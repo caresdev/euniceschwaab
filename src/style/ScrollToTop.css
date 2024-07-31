@@ -1,4 +1,13 @@
-.scrollToTopBtn{
-    background-color: black;
-    color: white;
+.scrollToTopBtn.show{
+    display: block;
+    background-color: black !important;
+    bottom: 50px;
+    left: 80vw;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.scrollToTopBtn.hide{
+    display: none !important;
 }
