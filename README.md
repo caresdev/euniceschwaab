@@ -1,5 +1,9 @@
 # Eunice Schwaab
 
+![App Desktop Homepage](./public/assets/readme-samples/homepage-desktop.png "App Desktop Homepage")
+![App Mobile Homepage](./public/assets/readme-samples/homepage-mobile.png "App Mobile Homepage")
+![App Mobile Contact](./public/assets/readme-samples/contact-mobile.png "App Mobile Contact")
+
 Welcome to the repository for Eunice Shwaab's website! This space showcases the artistic and literary talents of a 17-year old writer and artist 
 with a passion for the dark and the mysterious. As the frontend developer for this project, I will bring Eunice's artistic concepts into an immersive online experience. 
 Here, you'll find all the necessary tools and resources to build and refine a portfolio like Eunice's. 
